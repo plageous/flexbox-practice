@@ -14,13 +14,39 @@ header nav a {
     margin-left: 2rem;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .card {
     display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+ .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
 
 /* 
 Challenge: Use flexbox in media queries to create a responsive layout 
